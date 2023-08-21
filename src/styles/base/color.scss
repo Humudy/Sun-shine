@@ -1,0 +1,128 @@
+// system colors
+$primary-color: #06c;
+$background-color: rgb(240, 240, 249);
+$white-color: rgb(255, 255, 255);
+
+$disabled-text-color: #888;
+
+// SYSTEM COLORS
+$orange: rgb(255, 87, 34);
+$dark-color: rgb(0, 0, 0);
+$light-color: rgb(255, 255, 255);
+$disabled-background-color: rgb(213, 213, 227);
+
+// BORDER COLORS
+$border-color: $background-color;
+
+// BASIC COLORS
+$secondary-color: $background-color;
+
+
+// LINKS COLORS
+$link-color: $primary-color;
+
+// NOTIFICATION COLORS
+$info-color: rgb(0, 0, 255);
+$warn-color: rgb(241, 129, 20);
+$success-color: rgb(44, 150, 63);
+$error-color: rgb(232, 33, 43);
+
+
+// ICON COLORS
+$icon-color: rgb(137, 155, 189);
+
+// TEXT COLORS
+$label-color: rgb(149, 148, 150);
+$disabled-text-color: rgb(190, 190, 208);
+$text-color: rgb(38, 50, 56);
+$dark-text-color: rgba(255, 255, 255, 0.8);
+
+// SIDEBAR COLORS
+$sidebar-link-color: $text-color;
+$sidebar-label-color: $label-color;
+$sidebar-background-color: $light-color;
+
+// CARD COLORS
+$card-background-color: $light-color;
+
+// SCROLLBAR COLOR
+$scrollbar-color: $label-color;
+
+// TOAST COLORS
+$message-info-bg-color: $info-color !default;
+$message-warning-bg-color: $warn-color !default;
+$message-error-bg-color: $error-color !default ;
+$message-success-bg-color: $success-color !default;
+
+
+.bg-primary {
+    background-color: $primary-color !important;
+}
+
+.bg-error {
+    background-color: $error-color !important;
+}
+
+.bg-success {
+    background-color: $success-color !important;
+}
+
+.bg-success-text{
+    color: rgba($success-color, 1) !important;
+}
+
+.bg-danger-text{
+    color: rgba($error-color, 1) !important;
+}
+
+.bg-info {
+    background-color: $info-color !important;
+}
+
+.bg-warning {
+    background-color: $warn-color !important;
+}
+
+.bg-secondary {
+    background-color: $secondary-color !important;
+}
+
+.text-primary {
+    color: $primary-color !important;
+}
+
+.bg-orange {
+    background-color: $orange !important;
+}
+
+.text-error {
+    color: $error-color !important;
+}
+
+.text-success {
+    color: $success-color !important;
+}
+
+.text-info {
+    color: $info-color !important;
+}
+
+.text-warning {
+    color: $warn-color !important;
+}
+
+.text-secondary {
+    color: $secondary-color !important;
+}
+
+.text-gray {
+    color: $text-color !important;
+}
+
+.text-white {
+    color: $light-color !important;
+}
+
+.text-orange {
+    color: $orange !important;
+}

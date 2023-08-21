@@ -1,0 +1,75 @@
+// FAMILY
+$font-family: "Source Sans Pro";
+
+// SIZE
+$font-size: 0.9375em;
+$icon-font-size: 1.5em;
+$title-font-size: 1.125em;
+
+// WEIGHT
+$font-weight-bold: 600;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-semibold: 500;
+
+
+// WEIGHT CLASSES
+.bold {
+    font-weight: $font-weight-bold !important;
+}
+
+.semibold {
+    font-weight: $font-weight-semibold !important;
+}
+
+.regural {
+    font-weight: $font-weight-regular !important;
+}
+
+.light {
+    font-weight: $font-weight-light !important;
+}
+
+
+// TRANSFROM CLASSES
+.lowercase {
+    text-transform: lowercase !important;
+}
+
+.uppercase {
+    text-transform: uppercase !important;
+}
+
+.capitalize {
+    text-transform: capitalize !important;
+}
+
+.normal-case {
+    transform: none !important;
+}
+
+.italic {
+    font-style: italic !important;
+}
+
+// ALIGN CLASSES
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right
+}
+
+.center,
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+
+
+
