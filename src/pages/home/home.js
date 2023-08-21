@@ -8,21 +8,53 @@ const Home = React.memo(() => {
                 <div className='hero'>hero</div>
                 <div className='contents'>
                     <div className='welcome'>
-                        Welcome to <b className='text-primary'>SunShine</b>  DayCare Center
+                        Welcome to <b className='text-primary'>Step ups</b>  DayCare Center
                     </div>
                     <div className='features'>
                         <div className='row'>
                             <div className='col s12 m6 l3'>
-                                <div className='feature'>Active learning</div>
+                                <div className='feature'>
+                                    <div className='icon'>
+                                        <i className="material-icons-round">
+                                            local_library
+                                        </i>
+                                    </div>
+                                    <div className='title'>Active learning</div>
+                                    <span>Step ups ignite curiosity, inspire exploration, and empower children to become confident learners and thinkers.</span>
+                                </div>
                             </div>
                             <div className='col s12 m6 l3'>
-                                <div className='feature'>Better Environments</div>
+                                <div className='feature'>
+                                    <div className='icon'>
+                                        <i className="material-icons-round">
+                                            school
+                                        </i>
+                                    </div>
+                                    <div className='title'>Better Environments</div>
+                                </div>
                             </div>
                             <div className='col s12 m6 l3'>
-                                <div className='feature'>Sport skills</div>
+                                <div className='feature'>
+                                    <div className='icon'>
+                                        <i className="material-icons-round">
+                                            sports_soccer
+                                        </i>
+                                    </div>
+                                    <div className='title'>Sport skills</div>
+                                </div>
                             </div>
                             <div className='col s12 m6 l3'>
-                                <div className='feature'>hey</div>
+                                <div className='feature'>
+                                    <div className='icon'>
+                                        <i class="material-icons-round">
+                                            palette
+                                        </i>
+                                    </div>
+                                    <div className='title'>Nature and Outdoor Creativity</div>
+                                    <span>
+                                        We encourage children to engage with the natural world, sparking creativity through nature-based exploration and outdoor art.
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>

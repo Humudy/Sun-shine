@@ -40,13 +40,43 @@
     }
 
     .features {
-        padding: 2rem;
+        margin-top: 1rem;
 
         .feature {
             background-color: $white-color;
-            height: 300px;
+            height: 230px;
             padding: 1rem;
             border-radius: 1rem;
+            margin: 1rem 0;
+
+            &:hover {
+                box-shadow: 0px 0px 5px rgba(0, 0, 255, 0.1);
+            }
+
+            span {
+                padding: 3px;
+                font-size: $title-font-size;
+                font-family: $font-family;
+                color: $disabled-text-color;
+            }
+
+            .title {
+                font-size: $title-font-size;
+                color: $disabled-text-color;
+                text-decoration: underline;
+                padding: .8rem;
+            }
+
+            .icon {
+                padding: 1px;
+
+                i {
+                    font-size: 60px;
+                    color: $primary-color;
+                    cursor: pointer;
+                }
+            }
+
         }
     }
 

@@ -6,7 +6,7 @@ const Global = React.memo(({ children }) => {
             <div className='appbar'>
                 <div className='left-section'>
                     <span className='logo-name'>
-                        SunShine
+                        Step ups
                     </span>
                 </div>
                 <div className='right-section'>right</div>
