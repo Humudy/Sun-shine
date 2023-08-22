@@ -40,7 +40,7 @@ const Home = React.memo(() => {
                                 <div className='feature'>
                                     <div className='icon'>
                                         <i className="material-icons-round">
-                                            sports_soccer
+                                            groups
                                         </i>
                                     </div>
                                     <div className='title'>Ushirikiano wa Karibu na Wazazi</div>
@@ -53,7 +53,7 @@ const Home = React.memo(() => {
                                 <div className='feature'>
                                     <div className='icon'>
                                         <i className="material-icons-round">
-                                            palette
+                                            psychology
                                         </i>
                                     </div>
                                     <div className='title'>Kuimarisha Uwezo wa Kufikiri</div>
@@ -72,7 +72,7 @@ const Home = React.memo(() => {
                 </div>
                 <div className='contents'>
                     <div className='title'>
-                        Meet Our <b className='text-primary'>Manager</b>.
+                        Meneja wa shule.
                         <div className='features'>
                             <div className='row'>
                                 <div className='col s12'>
