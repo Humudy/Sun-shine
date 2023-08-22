@@ -14,7 +14,7 @@ echo "Building Application ..."
 npm run build
 
 echo "Deploying Application to EDUBETTER Server ..."
-scp -r build/* root@146.190.117.151:websites/stepups/var/www/stepups.edubetter.co/html/
+scp -r build/* root@146.190.117.151/websites/stepups:/var/www/stepups.edubetter.co/html/
 
 echo "EDUBETTER FRONTEND IS UP AND RUNNING."
 
