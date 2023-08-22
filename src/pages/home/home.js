@@ -7,8 +7,8 @@ const Home = React.memo(() => {
             <div className='home'>
                 <div className='hero'>hero</div>
                 <div className='contents'>
-                    <div className='welcome'>
-                        Welcome to <b className='text-primary'>Step ups</b>  DayCare Center
+                    <div className='title'>
+                        Welcome to <b className='text-primary'>Step ups</b>  DayCare Center.
                     </div>
                     <div className='features'>
                         <div className='row'>
@@ -59,9 +59,21 @@ const Home = React.memo(() => {
                         </div>
                     </div>
                 </div>
+                <div className='contents'>
+                    <div className='title'>
+                        Meet Our <b className='text-primary'>Manager</b>.
+                        <div className='features'>
+                            <div className='row'>
+                                <div className='col s12'>
+                                    <div className='feature manager'></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className='motto'>
                     <div className='section'>
-                        A mother's love and quality learning.
+                        Education For Better Life.
                     </div>
                 </div>
             </div>

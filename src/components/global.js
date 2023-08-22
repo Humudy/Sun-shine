@@ -9,7 +9,7 @@ const Global = React.memo(({ children }) => {
                         Step ups
                     </span>
                 </div>
-                <div className='right-section'>right</div>
+                {/* <div className='right-section'>right</div> */}
             </div>
             <div className='main'>
                 {children}
