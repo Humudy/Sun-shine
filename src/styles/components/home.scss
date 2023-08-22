@@ -4,8 +4,23 @@
     width: 100%;
 
     .hero {
-        height: 80vh;
-        background-color: $white-color;
+        -webkit-animation-delay: 0;
+        animation-delay: 0;
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;
+        -webkit-animation-duration: 15s;
+        animation-duration: 15s;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-name: background;
+        animation-name: background;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
     }
 
     .motto {
@@ -27,6 +42,39 @@
 
     }
 
+    .descriptions {
+        min-height: 400px;
+        background-color: $white-color;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+        justify-content: center;
+        font-size: 2rem;
+        color: $disabled-text-color;
+    }
+
+    .location {
+        // -webkit-animation-delay: 0;
+        // animation-delay: 0;
+        // -webkit-animation-direction: alternate;
+        // animation-direction: alternate;
+        // -webkit-animation-duration: 15s;
+        // animation-duration: 15s;
+        // -webkit-animation-iteration-count: infinite;
+        // animation-iteration-count: infinite;
+        // -webkit-animation-name: background;
+        // animation-name: background;
+        // -webkit-animation-timing-function: linear;
+        // animation-timing-function: linear;
+        // background-position: 50%;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // height: 500px;
+        // width: 100%;
+        // margin-top: $header-height;
+    }
+
     .contents {
         display: flex;
         flex-direction: column;
@@ -44,21 +92,38 @@
 
             .feature {
                 background-color: $white-color;
-                height: 230px;
-                padding: 1rem;
+                padding: 2rem;
                 border-radius: 1rem;
                 margin: 1rem 0;
+                height: 450px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
 
-                &.manager{
-                    height: 300px;
+                @media only screen and (min-width: $small-screen) and (max-width: $medium-screen) {
+                    height: 310px;
                 }
-                
+
+                // @media (min-width: $medium-screen) {
+                //     height: 350px;
+                // }
+
+                // @media (min-width: $small-screen) {
+                //     height: 300px;
+                // }
+
+                &.manager {
+                    min-height: 300px;
+                }
+
                 &:hover {
                     box-shadow: 0px 0px 5px rgba(0, 0, 255, 0.1);
                 }
 
                 span {
-                    padding: 3px;
+                    // padding: 3px;
                     font-size: $title-font-size;
                     font-family: $font-family;
                     color: $disabled-text-color;
@@ -87,4 +152,24 @@
     }
 
 
+}
+
+
+@keyframes background {
+    0% {
+        // margin-top: $header-height;
+        background-image: url('../../static/billboard.png');
+    }
+
+    33.33% {
+        background-image: url('../../static/step1.png');
+    }
+
+    66.66% {
+        background-image: url('../../static/step2.png');
+    }
+
+    100% {
+        background-image: url('../../static/step4.png');
+    }
 }

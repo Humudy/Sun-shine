@@ -17,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "rebuild": "sudo npm install && sudo npm install -D && sudo npm run build && sudo mv build /var/www/146.190.117.151 && cd /var/www/146.190.117.151 && sudo rm -rf html && sudo mv build html"
+
   },
   "eslintConfig": {
     "extends": [
