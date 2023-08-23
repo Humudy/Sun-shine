@@ -11,11 +11,6 @@ const routes = [
         component: lazy(() => import('../pages/home/home'))
     },
 
-    // ABOUT
-    {
-        path:"/about",
-        component:lazy(() =>import("../pages/about/about"))
-    }
 ]
 
 // EXPORT
