@@ -1,5 +1,8 @@
 import React from 'react'
 import Global from '../../components/global'
+import image from '../../static/mama.png'
+import pc1 from '../../static/pc1.png'
+import pc2 from '../../static/pc2.png'
 
 const Home = React.memo(() => {
     return (
@@ -66,9 +69,10 @@ const Home = React.memo(() => {
                     </div>
                 </div>
                 <div className='descriptions'>
-                    <span>
-                        Shule yetu inajivunia kuwa na walimu waliohitimu na wenye uzoefu, ambao hujali na kusaidia kukuza ukuaji wa kila mtoto. Walimu wetu wanashirikiana na wazazi katika kufuatilia maendeleo ya wanafunzi na kuhakikisha wanapata msaada unaohitajika.
-                    </span>
+                    <div className='row'>
+                        <div className='col s12 l6 image1'></div>
+                        <div className='col s12 l6 image2'> </div>
+                    </div>
                 </div>
                 <div className='contents'>
                     <div className='title'>
@@ -76,7 +80,14 @@ const Home = React.memo(() => {
                         <div className='features'>
                             <div className='row'>
                                 <div className='col s12'>
-                                    <div className='feature manager'></div>
+                                    <div className='feature manager'>
+                                        <div className='image'>
+                                            <img src={image} alt='mama' />
+                                        </div>
+                                        <div className='desc'>
+                                            Madam Witness Foya ni meneja wa shule mwenye uzoefu na ujuzi katika uongozi wa elimu. Yeye ni mtu mwenye shauku ya kuleta mabadiliko chanya katika mazingira ya kujifunza. Kupitia uongozi wake, amejenga mazingira ya shule yenye motisha na yenye kusisimua kwa wanafunzi na walimu. Madam Witness Foya anatambulika kwa uwezo wake wa kusikiliza na kushirikiana na jamii ya shule, pamoja na kuweka msisitizo kwa maendeleo ya kielimu na maadili kwa wanafunzi. Yeye ni mfano wa kuigwa kwa kujitolea kwake kwa ajili ya kuendeleza elimu bora na ukuaji wa kibinafsi kwa kila mwanafunzi.
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -88,6 +99,9 @@ const Home = React.memo(() => {
                     </div>
                 </div>
                 <div className='location'>
+                    <span>
+                        Shule yetu inajivunia kuwa na walimu waliohitimu na wenye uzoefu, ambao hujali na kusaidia kukuza ukuaji wa kila mtoto. Walimu wetu wanashirikiana na wazazi katika kufuatilia maendeleo ya wanafunzi na kuhakikisha wanapata msaada unaohitajika.
+                    </span>
                     <span>
                         Tunapatikana katika majengo ya Sabasaba, Morogoro mjini karibu na ukumbi wa vijana social.
                     </span>
