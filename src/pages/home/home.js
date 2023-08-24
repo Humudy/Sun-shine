@@ -1,8 +1,6 @@
 import React from 'react'
 import Global from '../../components/global'
 import image from '../../static/mama.png'
-import pc1 from '../../static/pc1.png'
-import pc2 from '../../static/pc2.png'
 
 const Home = React.memo(() => {
     return (
@@ -78,16 +76,12 @@ const Home = React.memo(() => {
                     <div className='title'>
                         Meneja wa shule.
                         <div className='features'>
-                            <div className='row'>
-                                <div className='col s12'>
-                                    <div className='feature manager'>
-                                        <div className='image'>
-                                            <img src={image} alt='mama' />
-                                        </div>
-                                        <div className='desc'>
-                                            Madam Witness Foya ni meneja wa shule mwenye uzoefu na ujuzi katika uongozi wa elimu. Yeye ni mtu mwenye shauku ya kuleta mabadiliko chanya katika mazingira ya kujifunza. Kupitia uongozi wake, amejenga mazingira ya shule yenye motisha na yenye kusisimua kwa wanafunzi na walimu. Madam Witness Foya anatambulika kwa uwezo wake wa kusikiliza na kushirikiana na jamii ya shule, pamoja na kuweka msisitizo kwa maendeleo ya kielimu na maadili kwa wanafunzi. Yeye ni mfano wa kuigwa kwa kujitolea kwake kwa ajili ya kuendeleza elimu bora na ukuaji wa kibinafsi kwa kila mwanafunzi.
-                                        </div>
-                                    </div>
+                            <div className='feature manager'>
+                                <div className='image'>
+                                    <img src={image} alt='mama' />
+                                </div>
+                                <div className='desc'>
+                                    Madam Witness Foya ni meneja wa shule mwenye uzoefu na ujuzi katika uongozi wa elimu. Yeye ni mtu mwenye shauku ya kuleta mabadiliko chanya katika mazingira ya kujifunza. Kupitia uongozi wake, amejenga mazingira ya shule yenye motisha na yenye kusisimua kwa wanafunzi na walimu. Madam Witness Foya anatambulika kwa uwezo wake wa kusikiliza na kushirikiana na jamii ya shule, pamoja na kuweka msisitizo kwa maendeleo ya kielimu na maadili kwa wanafunzi. Yeye ni mfano wa kuigwa kwa kujitolea kwake kwa ajili ya kuendeleza elimu bora na ukuaji wa kibinafsi kwa kila mwanafunzi.
                                 </div>
                             </div>
                         </div>
