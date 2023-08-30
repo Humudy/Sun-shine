@@ -2,8 +2,6 @@ import React from 'react'
 import logo from '../static/log.png'
 import fa from '../static/facebook.png'
 import insta from '../static/insta.png'
-import twitter from '../static/twitter.png'
-import { Link } from 'react-router-dom'
 
 const Global = React.memo(({ children }) => {
     return (
@@ -54,23 +52,38 @@ const Global = React.memo(({ children }) => {
                     <div className='info'>
                         <div className='title'>Mitandao ya Kijamii</div>
                         <div className='inner'>
-                            <Link to="#" className="link">
-                                <img src={fa} alt='facebook'/>
+                            <a
+                                href="https://www.facebook.com/profile.php?id=61550254547733&mibextid=ZbWKwL"
+                                className="link"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    window.location.href = "https://www.facebook.com/profile.php?id=61550254547733&mibextid=ZbWKwL";
+                                }}
+                            >
+                                <img src={fa} alt="facebook" />
                                 <span>facebook</span>
-                            </Link>
+                            </a>
+
                         </div>
                         <div className='inner'>
-                            <Link to="#">
+                            <a
+                                href="https://instagram.com/step_upsdaycare?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"
+                                className="link"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    window.location.href = "https://instagram.com/step_upsdaycare?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D";
+                                }}
+                            >
                                 <img src={insta} alt='insta' />
                                 <span>instagram</span>
-                            </Link>
+                            </a>
                         </div>
-                        <div className='inner'>
+                        {/* <div className='inner'>
                             <Link to="#">
                                 <img src={twitter} alt='twitter' />
                                 <span>twitter</span>
                             </Link>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
