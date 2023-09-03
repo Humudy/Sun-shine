@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../static/log.png'
 import fa from '../static/facebook.png'
 import insta from '../static/insta.png'
+import AdsComponent from './ads'
 
 const Global = React.memo(({ children }) => {
     return (
@@ -17,6 +18,7 @@ const Global = React.memo(({ children }) => {
             <div className='main'>
                 {children}
             </div>
+            <AdsComponent />
             <div className='sub-footer'>
                 <div className='sub-footer-info'>
                     <div className='logo'>
