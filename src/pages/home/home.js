@@ -9,7 +9,7 @@ const Home = React.memo(() => {
                 <div className='hero'></div>
                 <div className='contents'>
                     <div className='title'>
-                        Karibu <b className='text-primary'>Step ups</b>  DayCare Center.
+                        Karibu <b className='text-primary'>Sunshine</b>  DayCare Center.
                     </div>
                     <div className='features'>
                         <div className='row'>
@@ -21,7 +21,7 @@ const Home = React.memo(() => {
                                         </i>
                                     </div>
                                     <div className='title'>Mbinu Mpya za Kujifunza</div>
-                                    <span>Step Ups tunatumia mbinu mpya na za kisasa za kujifunza. Kupitia mbinu hizi, watoto wanahamasishwa kushiriki kikamilifu katika kujifunza kupitia michezo, majaribio, na kuwahimiza kutumia akili zao kwa ubunifu.</span>
+                                    <span>Sunshine tunatumia mbinu mpya na za kisasa za kujifunza. Kupitia mbinu hizi, watoto wanahamasishwa kushiriki kikamilifu katika kujifunza kupitia michezo, majaribio, na kuwahimiza kutumia akili zao kwa ubunifu.</span>
                                 </div>
                             </div>
                             <div className='col s12 m6 l3'>
@@ -33,7 +33,7 @@ const Home = React.memo(() => {
                                     </div>
                                     <div className='title'>Mazingira Bora ya Kujifunza</div>
                                     <span>
-                                        Step Ups ina mazingira mazuri ya kujifunza kwa watoto. Madarasa yenye vifaa vya kisasa na maeneo ya nje yenye kuchangia katika kufanya mchakato wa kujifunza kuwa wa kuvutia na wa kufurahisha kwa watoto.
+                                    Sunshine ina mazingira mazuri ya kujifunza kwa watoto. Madarasa yenye vifaa vya kisasa na maeneo ya nje yenye kuchangia katika kufanya mchakato wa kujifunza kuwa wa kuvutia na wa kufurahisha kwa watoto.
                                     </span>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ const Home = React.memo(() => {
                                     </div>
                                     <div className='title'>Ushirikiano wa Karibu na Wazazi</div>
                                     <span>
-                                        Step Ups inaamini katika ushirikiano wa karibu kati ya shule na wazazi. Shule hutoa fursa kwa wazazi kujihusisha na mchakato wa elimu ya watoto wao ili kujenga mahusiano thabiti na wazazi.
+                                    Sunshine inaamini katika ushirikiano wa karibu kati ya shule na wazazi. Shule hutoa fursa kwa wazazi kujihusisha na mchakato wa elimu ya watoto wao ili kujenga mahusiano thabiti na wazazi.
                                     </span>
                                 </div>
                             </div>
