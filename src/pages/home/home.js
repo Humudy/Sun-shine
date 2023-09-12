@@ -97,7 +97,7 @@ const Home = React.memo(() => {
                         Shule yetu inajivunia kuwa na walimu waliohitimu na wenye uzoefu, ambao hujali na kusaidia kukuza ukuaji wa kila mtoto. Walimu wetu wanashirikiana na wazazi katika kufuatilia maendeleo ya wanafunzi na kuhakikisha wanapata msaada unaohitajika.
                     </span>
                     <span>
-                        Tunapatikana katika majengo ya Sabasaba, Morogoro mjini karibu na ukumbi wa vijana social.
+                        Tunapatikana katika maeneo ya mfuruni, kata ya Tungi, Morogoro mjini karibu na jengo la ofisi za NIDA mkoa.
                     </span>
                 </div>
             </div>
