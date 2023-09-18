@@ -89,7 +89,7 @@ const Home = React.memo(() => {
                 </div>
                 <div className='motto'>
                     <div className='section'>
-                        Elimu kwa Maisha Bora.
+                        Upendo wa mama na elimu bora.
                     </div>
                 </div>
                 <div className='location'>
@@ -97,7 +97,7 @@ const Home = React.memo(() => {
                         Shule yetu inajivunia kuwa na walimu waliohitimu na wenye uzoefu, ambao hujali na kusaidia kukuza ukuaji wa kila mtoto. Walimu wetu wanashirikiana na wazazi katika kufuatilia maendeleo ya wanafunzi na kuhakikisha wanapata msaada unaohitajika.
                     </span>
                     <span>
-                        Tunapatikana katika maeneo ya mfuruni, kata ya Tungi, Morogoro mjini karibu na jengo la ofisi za NIDA mkoa.
+                        Shule inapatikana maeneo ya mfuruni, kata ya Tungi, Morogoro mjini karibu na jengo la ofisi za NIDA mkoa.
                     </span>
                 </div>
             </div>

@@ -9,7 +9,7 @@ const Global = React.memo(({ children }) => {
             <div className='appbar'>
                 <div className='left-section'>
                     <span className='logo-name'>
-                        Step ups
+                        Sunshine
                     </span>
                 </div>
                 {/* <div className='right-section'>right</div> */}
